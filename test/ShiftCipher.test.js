@@ -6,6 +6,6 @@ describe("Shift Cipher Test", () => {
         assert.strictEqual(ShiftCipher("ABCD",3),"DEFG");
     });
     it("Message with different cases", () => {
-        assert.strictEqual(ShiftCipher("HeLlO WoRlD",1),"IaMaPAXaSaE");
+        assert.strictEqual(ShiftCipher("HeLlO WoRlD",1),"IfMmP XpSmE");
     });
 })
