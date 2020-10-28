@@ -1,4 +1,4 @@
-const { charCodeAt } = require('../Alphabets');
+const { charCodeAt, indexOf } = require('../Alphabets');
 const alphabets=require('../Alphabets');
 
 const ShiftCipher = (text, shift) => {
@@ -24,8 +24,9 @@ const ShiftCipher = (text, shift) => {
 
     cipher="";
     for(var i=0; i<text.length; i++) {
-        var index=(alphabets.indexOf(text[i])+shift) % 26;
-        if(index !== -1) {
+        var letterIndex=alphabets.indexOf(text[i].toUpperCase());
+        var index=(letterIndex+shift) % 26;
+        if(letterIndex !== -1) {
             if(text.charCodeAt(i) < 97) {
                 cipher+=alphabets[index];
             }
