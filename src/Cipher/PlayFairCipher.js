@@ -11,8 +11,30 @@ const position= (grid, val) => {
 }
 
 const PlayFairCipher = (text, key) => {
+    /**
+     * 
+     * Encrypts data using 5*5 grid
+     * 
+     * Syntax:
+     *  PlayFairCipher(PlainText,Substitution)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: String      // key value for encryption
+     * 
+     * Returns:
+     *  Playfair Cipher for the plain text with all upper case alphabets
+     * 
+     * Example:
+     *  PlayFairCipher("PLAYFAIRCIPHER","ENCRYPTION") --> returns TKHAHIOCIFABNY
+     *  PlayFairCipher("PROGRAMMING","HELLOWORLD")    --> returns NDEKDBIZFQMV
+     * 
+     */
+
     let grid=[];
     let temp=[];
+    text=text.toUpperCase();
+    key=key.toUpperCase();
     key=key.replace(/J/g,"I");
     text.replace(/J/g,"I");
     for(var i=0;i<key.length;i++) {
@@ -79,4 +101,5 @@ const PlayFairCipher = (text, key) => {
     return cipher;
 }
 
+console.log(PlayFairCipher("PROGRAMMING","HELLOWORLD"))
 module.exports=PlayFairCipher;
