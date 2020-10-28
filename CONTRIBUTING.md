@@ -9,6 +9,7 @@ There are a few preferences regarding code contributions:
 - Before creating a pull request, run the unit tests to make sure they all pass.
 - All the code (ciphers and deciphers) should be under `src` directory
 - All the test should be under `test` directory. 
+- Run `npm test` for run test cases.
 - Send pull requests to the `cipher` branch while implementing ciphers and `decipher` branch while implementing deciphers, not the `master` branch.
 
 What can I do?
