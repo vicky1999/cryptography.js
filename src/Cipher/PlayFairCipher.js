@@ -101,5 +101,4 @@ const PlayFairCipher = (text, key) => {
     return cipher;
 }
 
-console.log(PlayFairCipher("PROGRAMMING","HELLOWORLD"))
 module.exports=PlayFairCipher;
