@@ -56,7 +56,6 @@ const PlayFairCipher = (text, key) => {
             temp=[];
         }
     }
-    console.log(grid);
     let cipher="";
     for(var i=0;i<text.length-1;i+=2) {
         var first=text[i];
@@ -66,7 +65,6 @@ const PlayFairCipher = (text, key) => {
         }
         let first_position=position(grid, first);
         let second_position=position(grid, second);
-        console.log(cipher);
         if(first_position[1]===second_position[1]) {
             cipher+=grid[(first_position[0]+1)%5][first_position[1]]+grid[(second_position[0]+1)%5][second_position[1]];
         }
