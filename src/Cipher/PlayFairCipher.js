@@ -16,7 +16,7 @@ const PlayFairCipher = (text, key) => {
      * Encrypts data using 5*5 grid
      * 
      * Syntax:
-     *  PlayFairCipher(PlainText,Substitution)
+     *  PlayFairCipher(PlainText,key)
      * 
      * Parameters: 
      *  text: String     // Plain Text for cipher
