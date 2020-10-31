@@ -1,6 +1,29 @@
 const alphabets=require('../Alphabets');
 
 const OneTimePad = (text,key) => {
+    /**
+     * 
+     * Encrypts data using key
+     * 
+     * Syntax:
+     *  OneTimePad(PlainText,key)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: String      // key value for encryption
+     * 
+     * Requirements:
+     *  The length of the plain text and key should be the same.
+     * 
+     * Returns:
+     *  One Time Pad for the plain text with all upper case alphabets
+     * 
+     * Example:
+     *  OneTimePad("HELLOWORLD","THISISAKEY")         --> returns ALTDWOOBPB
+     *  OneTimePad("IAMPLAINTEXT","IAMSHAREDKEY")    --> returns QAYHSAZRWOBR
+     * 
+     */
+
     key=key.replace(/[^A-Za-z]/g,"").toUpperCase();
     text=text.replace(/[^A-Za-z]/g ,"").toUpperCase();
     text=text.toUpperCase();
