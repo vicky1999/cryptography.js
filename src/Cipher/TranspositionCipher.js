@@ -15,6 +15,31 @@ const keyOrder = (key) => {
 }
 
 const TranspositionCipher = (text, key) => {
+    /**
+     * 
+     * Encrypts data using Transposition Cipher
+     * 
+     * Syntax:
+     *  TranspositionCipher(PlainText,key)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: String      // key value for encryption
+     * 
+     * Requirements:
+     *  Each letters in the key should be unique
+     * 
+     * Returns:
+     *  Transposition Cipher for the plain text
+     * 
+     * Example:
+     *  TranspositionCipher("HELLOWORLD","IAMKEY")     --> returns ERO~HOLDLLW~
+     *  TranspositionCipher("IAMPLAINTEXT","KEY")     --> returns ALNXIPIEMATT
+     * 
+     * Note:
+     *  Tilde ( ~ ) is added for blanks or a cell that does not contain data
+     * 
+     */
     text=text.replace(/[^A-Za-z]/g,"");
     key=key.replace(/[^A-Za-z]/g,"");
     let table=[];
@@ -38,5 +63,8 @@ const TranspositionCipher = (text, key) => {
     }
     return cipher;
 }
+
+console.log(TranspositionCipher("HELLOWORLD","IAMKEY"));
+console.log(TranspositionCipher("IAMPLAINTEXT","KEY"));
 
 module.exports=TranspositionCipher;
