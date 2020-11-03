@@ -64,7 +64,4 @@ const TranspositionCipher = (text, key) => {
     return cipher;
 }
 
-console.log(TranspositionCipher("HELLOWORLD","IAMKEY"));
-console.log(TranspositionCipher("IAMPLAINTEXT","KEY"));
-
 module.exports=TranspositionCipher;
