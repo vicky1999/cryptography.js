@@ -199,6 +199,24 @@ const encrypt = (text,rkb,rk) => {
 }
 
 const DES = (text, key) => {
+    /**
+     * DES is a block cipher, and encrypts data in blocks of size of 64 bit each, means 64 bits of plain text goes as the input to DES, which produces 64 bits of cipher text.
+     * 
+     * Syntax: 
+     *  DES(PlainText, key)
+     * 
+     * Parameters:
+     *  text: String   // Plain text for cipher
+     *  key: String    // Key for cipher
+     * 
+     * Returns: 
+     *      DES cipher for the plain text.
+     * 
+     * Note: 
+     *      Both Plain text and Key should be in hexadecimal format.
+     * 
+     */
+
     text=TextToHex(text).toUpperCase();
     key=TextToHex(key).toUpperCase();
     key=HexToBinary(key);
