@@ -14,7 +14,17 @@
     "url": "git+https://github.com/vicky1999/cryptography.js.git"
   },
   "keywords": [
-    "cryptography"
+    "cryptography",
+    "crypto",
+    "security",
+    "cipher",
+    "decipher",
+    "encrypt",
+    "decrypt",
+    "encryption",
+    "decryption",
+    "key",
+    "hash"
   ],
   "author": "vicky1999",
   "license": "ISC",

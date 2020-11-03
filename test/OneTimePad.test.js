@@ -11,4 +11,7 @@ describe("One Time Pad Cipher Test", () => {
     it("One Time Pad Cipher test for text with spaces", () => {
         assert.strictEqual(OneTimePad("Hello World","This is a Key"),"ALTDWOOBPB");
     });
+    it("One Time Pad Cipher test for text with upper case", () => {
+        assert.strictEqual(OneTimePad("HELLO WORLD","THIS IS A KEY"),"ALTDWOOBPB");
+    });
 })
