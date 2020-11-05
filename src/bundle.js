@@ -1,4 +1,7 @@
 module.exports.Alphabets=require('./Alphabets');
+
+//Ciphers
+module.exports.AffineCipher=require('./Cipher/AffineCipher');
 module.exports.DES=require('./Cipher/DES');
 module.exports.OneTimePad=require('./Cipher/OneTimePad');
 module.exports.PlayFairCipher=require('./Cipher/PlayFairCipher');
