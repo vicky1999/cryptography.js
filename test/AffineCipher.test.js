@@ -11,5 +11,7 @@ describe("Affine Cipher Test", () => {
     it("Text with same cases without spaces", () => {
         assert.strictEqual(AffineCipher("IAMPLAINTEXT",6,2),"YCWOQCYCMAKM");
     });
-    
+    it("Text with lowercase cases without spaces", () => {
+        assert.strictEqual(AffineCipher("iamplaintext",6,2),"YCWOQCYCMAKM");
+    });    
 })
