@@ -1,5 +1,5 @@
 const assert=require('assert');
-const { AtbashCipher } = require('../src/bundle');
+const { BaconCipher } = require('../src/bundle');
 
 describe("Atbash Cipher Test", () => {
     it("Text with spaces", () => {
