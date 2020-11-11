@@ -1,6 +1,25 @@
 const alphabets=require('../Alphabets');
 
 const BaconCipher = (text) => {
+    /**
+     * 
+     * each letter is replaced by a sequence of 5 characters.
+     * 
+     * Syntax:
+     *  BaconCipher(PlainText)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     * 
+     * Returns:
+     *  Baconian Cipher for the plain text with all upper case alphabets
+     * 
+     * Example:
+     *  AtbashCipher("HELLO")      --> returns aabbbaabaaababbababbabbba
+     *  AtbashCipher("text")    --> returns baabbaabaababbbbaabb
+     * 
+     */
+
     text=text.toUpperCase();
     let cipher='';
     for(var i=0;i<text.length;i++) {
