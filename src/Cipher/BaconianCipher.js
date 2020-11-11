@@ -12,7 +12,7 @@ const BaconCipher = (text) => {
      *  text: String     // Plain Text for cipher
      * 
      * Returns:
-     *  Baconian Cipher for the plain text with all upper case alphabets
+     *  Baconian Cipher for the plain text with all lower case alphabets
      * 
      * Example:
      *  BaconCipher("HELLO")      --> returns aabbbaabaaababbababbabbba
