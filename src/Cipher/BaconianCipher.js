@@ -15,8 +15,8 @@ const BaconCipher = (text) => {
      *  Baconian Cipher for the plain text with all upper case alphabets
      * 
      * Example:
-     *  AtbashCipher("HELLO")      --> returns aabbbaabaaababbababbabbba
-     *  AtbashCipher("text")    --> returns baabbaabaababbbbaabb
+     *  BaconCipher("HELLO")      --> returns aabbbaabaaababbababbabbba
+     *  BaconCipher("text")    --> returns baabbaabaababbbbaabb
      * 
      */
 
