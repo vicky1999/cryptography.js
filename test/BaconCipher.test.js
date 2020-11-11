@@ -1,7 +1,7 @@
 const assert=require('assert');
 const { BaconCipher } = require('../src/bundle');
 
-describe("Atbash Cipher Test", () => {
+describe("Bacon Cipher Test", () => {
     it("Text with spaces", () => {
         assert.strictEqual(BaconCipher("HELLO"),"aabbbaabaaababbababbabbba");
     });
