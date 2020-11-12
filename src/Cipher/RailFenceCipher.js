@@ -9,7 +9,7 @@ const RailFenceCipher = (text,key) => {
      *  RailFenceCipher(PlainText,Key)
      * 
      * Parameters: 
-     *  text: String     // Plain Text for cipher
+     *  text: String        // Plain Text for cipher
      *  key: Number        // A number to representing the size of the array or rail fence
      * 
      * Returns:
