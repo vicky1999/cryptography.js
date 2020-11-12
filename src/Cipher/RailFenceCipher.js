@@ -1,6 +1,26 @@
 const alphabets=require('../Alphabets');
 
 const RailFenceCipher = (text,key) => {
+    /**
+     * 
+     * Encrypts data based on the principle: "write down the columns, read along the rows"
+     * 
+     * Syntax:
+     *  RailFenceCipher(PlainText,Key)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: Number        // A number to representing the size of the array or rail fence
+     * 
+     * Returns:
+     *  Rail Fence cipher for the plain text
+     * 
+     * Example:
+     *  RailFenceCipher("HELLOWORLD",3)         --> returns HOLELWRDLO
+     *  RailFenceCipher("IAMPLAINTEXT",3)       --> returns ILTAPANETMIX
+     * 
+     */
+
     let rail=[];
     text=text.replace(/[^A-Za-z]/g,"");
     for(var i=0;i<key;i++) {
