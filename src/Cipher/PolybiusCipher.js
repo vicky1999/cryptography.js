@@ -14,7 +14,7 @@ const PolybiusCipher=(text,key) => {
      *  The length of the key should be the 25 characters.
      * 
      * Returns:
-     *  Polybius Square Cipher for the plain text with all upper case alphabets
+     *  Polybius Square Cipher for the plain text with all upper case alphabets.  The alphabets were one of A, B, C, D, E.
      * 
      * Example:
      *  PolybiusCipher("hello","ectbkdlanqwgyoirvmsxpfuhz") ---> EDAABBBBCD
