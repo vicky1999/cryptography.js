@@ -2,8 +2,8 @@ const assert=require('assert');
 const { PolybiusCipher } = require('../src/bundle');
 
 describe("Polybius Square Cipher Test", () => {
-    it("Text without spaces", () => {
-        assert.strictEqual(PolybiusCipher("hello","ectbkdlanqwgyoirvmsxpfuhz"),"EDAABBBBCD");
+    it("Text with spaces", () => {
+        assert.strictEqual(PolybiusCipher("hello world","ectbkdlanqwgyoirvmsxpfuhz"),"EDAABBBBCDCACDDABBBA");
     });
     it("Text with different cases", () => {
         assert.strictEqual(PolybiusCipher("Hello","ectbkdlanqwgyoirvmsxpfuhz"),"EDAABBBBCD");

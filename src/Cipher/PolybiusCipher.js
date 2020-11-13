@@ -34,5 +34,5 @@ const PolybiusCipher=(text,key) => {
     }
     return cipher;
 }
-
+console.log(PolybiusCipher("hello world","ectbkdlanqwgyoirvmsxpfuhz"))
 module.exports=PolybiusCipher;
