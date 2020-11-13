@@ -23,7 +23,7 @@ const PolybiusCipher=(text,key) => {
      */
 
     key=key.toUpperCase();
-    text=text.toUpperCase();
+    text=text.replace(/[^A-Za-z]/g ,"").toUpperCase();
     let cipher='';
     for(var i=0;i<text.length;i++) {
         let ind=key.indexOf(text[i]);
