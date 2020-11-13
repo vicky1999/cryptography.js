@@ -1,4 +1,27 @@
-const PolybiusCipher = (text,key) => {
+const PolybiusCipher=(text,key) => {
+    /**
+     * 
+     * each plaintext character is encrypted as 2 ciphertext characters.
+     * 
+     * Syntax:
+     *  PolybiusCipher(PlainText,key)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: String      // key value for encryption
+     * 
+     * Requirements:
+     *  The length of the key should be the 25 characters.
+     * 
+     * Returns:
+     *  Polybius Cipher for the plain text with all upper case alphabets
+     * 
+     * Example:
+     *  PolybiusCipher("hello","ectbkdlanqwgyoirvmsxpfuhz") ---> EDAABBBBCD
+     *  PolybiusCipher("IAMPLAINTEXT","ectbkdlanqwgyoirvmsxpfuhz") ---> CEBCDCEABBBCCEBDACAADEAC
+     * 
+     */
+
     key=key.toUpperCase();
     text=text.toUpperCase();
     let cipher='';
