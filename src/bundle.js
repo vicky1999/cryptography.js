@@ -7,6 +7,7 @@ module.exports.BaconCipher=require('./Cipher/BaconianCipher');
 module.exports.DES=require('./Cipher/DES');
 module.exports.OneTimePad=require('./Cipher/OneTimePad');
 module.exports.PlayFairCipher=require('./Cipher/PlayFairCipher');
+module.exports.PolybiusCipher=require('./Cipher/PolybiusCipher');
 module.exports.RailFenceCipher=require('./Cipher/RailFenceCipher');
 module.exports.ROT13=require('./Cipher/ROT13');
 module.exports.ShiftCipher=require('./Cipher/ShiftCipher');
