@@ -10,4 +10,4 @@ const AutoKeyCipher=(text,key) => {
     return cipher;
 }
 
-console.log(AutoKeyCipher("DEFENDTHEEASTWALLOFTHECASTLE","fortification"));
+module.exports=AutoKeyCipher;
