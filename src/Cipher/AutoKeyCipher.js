@@ -13,11 +13,11 @@ const AutoKeyCipher=(text,key) => {
      *  key: String      // key value for encryption
      * 
      * Returns:
-     *  Auto Key Cipher for the plain text with all upper case alphabets
+     *  Auto Key Cipher for the plain text with all upper case alphabets without spaces
      * 
      * Example:
      *  AutoKeyCipher("HELLOWORLD","HELLO")         --> returns OIWWCDSCWR
-     *  AutoKeyCipher("IAMPLAINTEXT","CRYPTO")    --> returns KRKEEOQNFTIT
+     *  AutoKeyCipher("IAMPLAINTEXT","CRYPTO")      --> returns KRKEEOQNFTIT
      * 
      */
 
