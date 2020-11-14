@@ -21,6 +21,8 @@ const AutoKeyCipher=(text,key) => {
      * 
      */
 
+    text=text.replace(/[^A-Za-z]/g,"").toUpperCase();
+    key=key.replace(/[^A-Za-z]/g,"").toUpperCase();
     let ind=0;
     for(var i=key.length;i<text.length;i++) {
         key+=text[ind];
