@@ -20,6 +20,7 @@ const VigenereCipher = (text,key) => {
      *  VigenereCipher("VIGENERECIPHER","CRYPTO")    --> returns XZETGSTVAXIVGI
      * 
      */
+    
     key=key.replace(/[^A-Za-z]/g,"").toUpperCase();
     text=text.replace(/[^A-Za-z]/g ,"").toUpperCase();
     var cipher="";
