@@ -13,7 +13,7 @@ const AutoKeyCipher=(text,key) => {
      *  key: String      // key value for encryption
      * 
      * Returns:
-     *  Vigenere Cipher for the plain text with all upper case alphabets
+     *  Auto Key Cipher for the plain text with all upper case alphabets
      * 
      * Example:
      *  AutoKeyCipher("HELLOWORLD","HELLO")         --> returns OIWWCDSCWR
