@@ -3,6 +3,7 @@ module.exports.Alphabets=require('./Alphabets');
 //Ciphers
 module.exports.AffineCipher=require('./Cipher/AffineCipher');
 module.exports.AtbashCipher=require('./Cipher/AtbashCipher');
+module.exports.AutoKeyCipher=require('./Cipher/AutoKeyCipher');
 module.exports.BaconCipher=require('./Cipher/BaconianCipher');
 module.exports.DES=require('./Cipher/DES');
 module.exports.OneTimePad=require('./Cipher/OneTimePad');
