@@ -1,4 +1,4 @@
-const { VigenereCipher } = require('../bundle');
+const VigenereCipher = require('./VigenereCipher');
 
 const AutoKeyCipher=(text,key) => {
     /**
