@@ -38,11 +38,13 @@ const PorteCipher = (text,key) => {
                 ['y', 'z', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'a', 'b'],
                 ['z', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'a']
         ];
+    
     for(var i=0;i<text.length;i++) {
         let keyValue=Math.floor((key.charCodeAt(i%key.length)-65)/2);
         let textValue=text.charCodeAt(i)-65;
         cipher+=tableau[keyValue][textValue];
     }
+    
     return cipher.toUpperCase();
     
 }
