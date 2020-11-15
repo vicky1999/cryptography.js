@@ -48,6 +48,5 @@ const PorteCipher = (text,key) => {
     return cipher.toUpperCase();
     
 }
-console.log(PorteCipher("I am plain text","CRYPTO"))
 
 module.exports=PorteCipher;
