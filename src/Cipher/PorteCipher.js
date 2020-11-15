@@ -1,4 +1,24 @@
 const PorteCipher = (text,key) => {
+    /**
+     * 
+     * Encrypts alphabetic data using a tableau.
+     * 
+     * Syntax:
+     *  PorteCipher(PlainText,key)
+     * 
+     * Parameters: 
+     *  text: String     // Plain Text for cipher
+     *  key: String      // key value for encryption
+     * 
+     * Returns:
+     *  Porte Cipher for the plain text with all upper case alphabets without spaces
+     * 
+     * Example:
+     *  PorteCipher("HELLOWORLD","GREET")         --> returns XZNNFGGCNZ
+     *  PorteCipher("PORTECIPHER","CRYPTO")       --> returns BGFMNWWHTYI
+     * 
+     */
+
     text=text.replace(/[^A-Za-z]/g,"").toUpperCase();
     key=key.replace(/[^A-Za-z]/g,"").toUpperCase();
     let cipher='';
@@ -26,5 +46,6 @@ const PorteCipher = (text,key) => {
     return cipher.toUpperCase();
     
 }
-
+console.log(PorteCipher("HELLOWORLD","GREET"));
+console.log(PorteCipher("PORTECIPHER","CRYPTO"));
 module.exports=PorteCipher;
