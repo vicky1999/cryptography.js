@@ -1,4 +1,6 @@
 const PorteCipher = (text,key) => {
+    text=text.toUpperCase();
+    key=key.toUpperCase();
     let cipher='';
     let tableau=
         [
@@ -21,7 +23,7 @@ const PorteCipher = (text,key) => {
         let textValue=text.charCodeAt(i)-65;
         cipher+=tableau[keyValue][textValue];
     }
-    return cipher;
+    return cipher.toUpperCase();
     
 }
 
