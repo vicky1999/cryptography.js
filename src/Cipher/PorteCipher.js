@@ -1,6 +1,6 @@
 const PorteCipher = (text,key) => {
-    text=text.toUpperCase();
-    key=key.toUpperCase();
+    text=text.replace(/[^A-Za-z]/g,"").toUpperCase();
+    key=key.replace(/[^A-Za-z]/g,"").toUpperCase();
     let cipher='';
     let tableau=
         [
