@@ -44,9 +44,10 @@ const PorteCipher = (text,key) => {
         let textValue=text.charCodeAt(i)-65;
         cipher+=tableau[keyValue][textValue];
     }
-    
+
     return cipher.toUpperCase();
     
 }
+console.log(PorteCipher("I am plain text","CRYPTO"))
 
 module.exports=PorteCipher;
