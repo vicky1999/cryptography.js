@@ -6,6 +6,6 @@ describe("Binary Test", () => {
         assert.strictEqual(Binary(10),'1010');
     });
     it("Binary for text", () => {
-        assert.strictEqual(AtbashCipher("ab"),"0110000101100010");
+        assert.strictEqual(Binary("ab"),"0110000101100010");
     });
 })
