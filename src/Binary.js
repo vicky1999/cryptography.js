@@ -1,4 +1,19 @@
 let Binary = (data) => {
+    /**
+     * Converts data to binary
+     * 
+     * Parameters:
+     *  data: String or number
+     * 
+     * Returns: 
+     *  Binary representation of the data.
+     *  
+     * Example: 
+     *  Binary(10)   ---> returns 1010
+     *  Binary('ab') ---> returns 0110000101100010
+     *  
+     */
+
     if(typeof(data)==='number') {
         return data.toString(2);
     }
