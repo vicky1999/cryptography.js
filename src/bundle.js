@@ -16,3 +16,6 @@ module.exports.ShiftCipher=require('./Cipher/ShiftCipher');
 module.exports.SubstitutionCipher=require('./Cipher/SubstitutionCipher');
 module.exports.TranspositionCipher=require('./Cipher/TranspositionCipher');
 module.exports.VigenereCipher=require('./Cipher/VigenereCipher');
+
+//Data Representations
+module.exports.Binary=require('./Binary');
