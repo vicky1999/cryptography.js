@@ -22,7 +22,7 @@ class Octal {
         for(var i=bin.length;i<8;i++) {
             res+='0';
         }
-        res+=bin+' ';
+        res+=bin;
         return res;
     }
     static toDecimal(val) {
