@@ -9,10 +9,10 @@ class Octal {
      * Returns: 
      *  String: Binary, Octal and Hexadecimal representations of the binary data.
      * Eg.:
-     *     Decimal.toBinary("65") ==> returns '01000001'
-     *     Decimal.toHex("30") ==> returns '1e'
-     *     Decimal.toOctal("15") ==> returns '17'
-     *     Decimal.toText("65 84") ==> returns 'AT'
+     *     Decimal.toBinary("65") ==> returns '00110101'
+     *     Decimal.toHex("30") ==> returns '18'
+     *     Decimal.toOctal("15") ==> returns '13'
+     *     Decimal.toText("102 104") ==> returns 'BD'
      * 
      */
 
@@ -41,6 +41,6 @@ class Octal {
     }
 }
 
-console.log(Octal.toBinary("143"))
+console.log(Octal.toText("102 104"))
 
 module.exports=Octal;
