@@ -9,10 +9,10 @@ class Octal {
      * Returns: 
      *  String: Binary, Octal and Hexadecimal representations of the binary data.
      * Eg.:
-     *     Decimal.toBinary("65") ==> returns '00110101'
-     *     Decimal.toHex("30") ==> returns '18'
-     *     Decimal.toOctal("15") ==> returns '13'
-     *     Decimal.toText("102 104") ==> returns 'BD'
+     *     Octal.toBinary("65") ==> returns '00110101'
+     *     Octal.toHex("30") ==> returns '18'
+     *     Octal.toDecimal("15") ==> returns '13'
+     *     Octal.toText("102 104") ==> returns 'BD'
      * 
      */
 
