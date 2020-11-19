@@ -1,13 +1,13 @@
 class Octal {
     /**
      * 
-     * Conversion of data from Decimal to Text, Binary, Octal, and Hexadecimal.
+     * Conversion of data from Octal to Text, Binary, Decimal, and Hexadecimal.
      * 
      * Parameters:
      *  val: String  representing the Decimal value
      * 
      * Returns: 
-     *  String: Binary, Octal and Hexadecimal representations of the binary data.
+     *  String: Binary, Decimal and Hexadecimal representations of the binary data.
      * Eg.:
      *     Octal.toBinary("65") ==> returns '00110101'
      *     Octal.toHex("30") ==> returns '18'
