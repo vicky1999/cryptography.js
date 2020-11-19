@@ -41,6 +41,4 @@ class Octal {
     }
 }
 
-console.log(Octal.toText("102 104"))
-
 module.exports=Octal;
