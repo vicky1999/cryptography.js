@@ -20,3 +20,4 @@ module.exports.VigenereCipher=require('./Cipher/VigenereCipher');
 //Data Representations
 module.exports.Binary=require('./Binary');
 module.exports.Decimal=require('./Decimal');
+module.exports.Octal=require('./Octal');
