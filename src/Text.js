@@ -19,7 +19,11 @@ class Text  {
     static toBinary(val) {
         let text='';
         for(var i=0;i<val.length;i++) {
-            text+=parseInt(val.charCodeAt(i),10).toString(2);
+            var temp=parseInt(val.charCodeAt(i),10).toString(2);
+            for(var i=temp.length;i<8;i++) {
+                text+='0';
+            }
+            text+=temp;
         }
         return text;
     }
