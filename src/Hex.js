@@ -40,9 +40,5 @@ class Hex {
         return text;
     }
 }
-console.log(Hex.toBinary('1e'));
-console.log(Hex.toDecimal("d"));
-console.log(Hex.toOctal('f2'));
-console.log(Hex.toText("5a"));
 
 module.exports=Hex;
