@@ -22,3 +22,4 @@ module.exports.Binary=require('./Binary');
 module.exports.Decimal=require('./Decimal');
 module.exports.Octal=require('./Octal');
 module.exports.Hex=require('./Hex');
+module.exports.Text=require('./Text');
