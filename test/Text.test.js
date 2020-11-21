@@ -12,6 +12,6 @@ describe("Text conversion Test", () => {
         assert.strictEqual(Text.toHex('A'),'41');
     });
     it("Text to Binary", () => {
-        assert.strictEqual(Text.toBinary('A'),'1000001');
+        assert.strictEqual(Text.toBinary('A'),'01000001');
     });
 })
