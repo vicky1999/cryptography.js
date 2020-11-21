@@ -45,9 +45,5 @@ class Text  {
         return text;
     }
 }
-console.log(Text.toBinary('A'));
-console.log(Text.toDecimal("A"));
-console.log(Text.toOctal('A'));
-console.log(Text.toHex("A"));
 
 module.exports=Text;

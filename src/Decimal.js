@@ -41,4 +41,6 @@ class Decimal {
     }
 }
 
+console.log(Decimal.toHex("123435"))
+
 module.exports=Decimal;
