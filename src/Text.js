@@ -9,10 +9,10 @@ class Text  {
      * Returns: 
      *  String: Binary, Decimal and Octal representations of the binary data.
      * Eg.:
-     *     Text.toBinary("1e") ==> returns '00011110'
-     *     Text.toOctal("f2") ==> returns '362'
-     *     Text.toDecimal("d") ==> returns '13'
-     *     Text.toText("5a") ==> returns 'Z'
+     *     Text.toBinary("A") ==> returns '01000001'
+     *     Text.toOctal("A") ==> returns '101'
+     *     Text.toDecimal("A") ==> returns '65'
+     *     Text.toHex("A") ==> returns '41'
      * 
      */
 
