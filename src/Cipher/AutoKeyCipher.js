@@ -28,7 +28,7 @@ const AutoKeyCipher=(text,key) => {
         key+=text[ind];
         ind++;
     }
-    let cipher=VigenereCipher(text,key);
+    let cipher=VigenereCipher.encrypt(text,key);
     return cipher;
 }
 
