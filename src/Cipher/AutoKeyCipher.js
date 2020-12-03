@@ -7,7 +7,7 @@ class AutoKeyCipher {
          * Encrypts alphabetic data using a table called Vigenere Table but uses different method to generate key.
          * 
          * Syntax:
-         *  AutoKeyCipher(PlainText,key)
+         *  AutoKeyCipher.encrypt(PlainText,key)
          * 
          * Parameters: 
          *  text: String     // Plain Text for cipher
@@ -17,8 +17,8 @@ class AutoKeyCipher {
          *  Auto Key Cipher for the plain text with all upper case alphabets without spaces
          * 
          * Example:
-         *  AutoKeyCipher("HELLOWORLD","HELLO")         --> returns OIWWCDSCWR
-         *  AutoKeyCipher("IAMPLAINTEXT","CRYPTO")      --> returns KRKEEOQNFTIT
+         *  AutoKeyCipher.encrypt("HELLOWORLD","HELLO")         --> returns OIWWCDSCWR
+         *  AutoKeyCipher.encrypt("IAMPLAINTEXT","CRYPTO")      --> returns KRKEEOQNFTIT
          * 
          */
 
