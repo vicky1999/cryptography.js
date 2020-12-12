@@ -7,7 +7,7 @@ class RailFenceCipher {
          * Encrypts data based on the principle: "write down the columns, read along the rows"
          * 
          * Syntax:
-         *  RailFenceCipher(PlainText,Key)
+         *  RailFenceCipher.encrypt(PlainText,Key)
          * 
          * Parameters: 
          *  text: String        // Plain Text for cipher
@@ -17,8 +17,8 @@ class RailFenceCipher {
          *  Rail Fence cipher for the plain text
          * 
          * Example:
-         *  RailFenceCipher("HELLOWORLD",3)         --> returns HOLELWRDLO
-         *  RailFenceCipher("IAMPLAINTEXT",3)       --> returns ILTAPANETMIX
+         *  RailFenceCipher.encrypt("HELLOWORLD",3)         --> returns HOLELWRDLO
+         *  RailFenceCipher.encrypt("IAMPLAINTEXT",3)       --> returns ILTAPANETMIX
          * 
          */
 
