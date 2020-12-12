@@ -13,25 +13,25 @@ const position = (grid, val) => {
 class PlayFairCipher {
 
     static encrypt(text, key) {
-    /**
-     * 
-     * Encrypts data using 5*5 grid
-     * 
-     * Syntax:
-     *  PlayFairCipher(PlainText,key)
-     * 
-     * Parameters: 
-     *  text: String     // Plain Text for cipher
-     *  key: String      // key value for encryption
-     * 
-     * Returns:
-     *  Playfair Cipher for the plain text with all upper case alphabets
-     * 
-     * Example:
-     *  PlayFairCipher.encrypt("PLAYFAIRCIPHER","ENCRYPTION") --> returns TKHAHIOCIFABNY
-     *  PlayFairCipher.encrypt("PROGRAMMING","HELLOWORLD")    --> returns NDEKDBIZFQMV
-     * 
-     */
+        /**
+         * 
+         * Encrypts data using 5*5 grid
+         * 
+         * Syntax:
+         *  PlayFairCipher(PlainText,key)
+         * 
+         * Parameters: 
+         *  text: String     // Plain Text for cipher
+         *  key: String      // key value for encryption
+         * 
+         * Returns:
+         *  Playfair Cipher for the plain text with all upper case alphabets
+         * 
+         * Example:
+         *  PlayFairCipher.encrypt("PLAYFAIRCIPHER","ENCRYPTION") --> returns TKHAHIOCIFABNY
+         *  PlayFairCipher.encrypt("PROGRAMMING","HELLOWORLD")    --> returns NDEKDBIZFQMV
+         * 
+         */
 
         let grid=[];
         let temp=[];
