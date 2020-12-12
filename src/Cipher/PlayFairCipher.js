@@ -18,7 +18,7 @@ class PlayFairCipher {
          * Encrypts data using 5*5 grid
          * 
          * Syntax:
-         *  PlayFairCipher(PlainText,key)
+         *  PlayFairCipher.encrypt(PlainText,key)
          * 
          * Parameters: 
          *  text: String     // Plain Text for cipher
