@@ -28,8 +28,8 @@ class PlayFairCipher {
      *  Playfair Cipher for the plain text with all upper case alphabets
      * 
      * Example:
-     *  PlayFairCipher("PLAYFAIRCIPHER","ENCRYPTION") --> returns TKHAHIOCIFABNY
-     *  PlayFairCipher("PROGRAMMING","HELLOWORLD")    --> returns NDEKDBIZFQMV
+     *  PlayFairCipher.encrypt("PLAYFAIRCIPHER","ENCRYPTION") --> returns TKHAHIOCIFABNY
+     *  PlayFairCipher.encrypt("PROGRAMMING","HELLOWORLD")    --> returns NDEKDBIZFQMV
      * 
      */
 
