@@ -1,5 +1,5 @@
 const assert=require('assert');
-const RailFenceCipher=require('../src/bundle');
+const RailFenceCipher=require('../src/Cipher/RailFenceCipher');
 
 describe("Rail Fence Cipher Test", () => {
     it("Text with spaces", () => {
