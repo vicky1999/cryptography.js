@@ -5,7 +5,7 @@ class ROT13 {
          * rotates each character in the plain text by 13 letters.
          * 
          * Syntax:
-         *  ROT13(PlainText)
+         *  ROT13.encrypt(PlainText)
          * 
          * Parameters: 
          *  text: String     // Plain Text for cipher
@@ -17,8 +17,8 @@ class ROT13 {
          *  ROT13 Cipher for the plain text with all upper case alphabets
          * 
          * Example:
-         *  ROT13("HELLOWORLD")      --> returns URYYBJBEYQ
-         *  ROT13("IAMPLAINTEXT")    --> returns VNZCYNVAGRKG
+         *  ROT13.encrypt("HELLOWORLD")      --> returns URYYBJBEYQ
+         *  ROT13.encrypt("IAMPLAINTEXT")    --> returns VNZCYNVAGRKG
          * 
          */
 
