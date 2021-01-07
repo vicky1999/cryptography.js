@@ -34,7 +34,7 @@ class AffineCipher {
             cipher+=String.fromCharCode(val+65);
         }
         return cipher;
-    }    
+    }
 }
 
 module.exports=AffineCipher;
